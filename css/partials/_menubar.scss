@@ -20,7 +20,10 @@
         float: left;
         font-family: 'Lora', serif;
         font-size: 16px;
-        border-radius: 30px; 
+        border-radius: 30px;
+        &:hover {
+            background: #eca023
+          } 
         a {
             display: block;
             padding: 10px;
@@ -30,6 +33,6 @@
   }
 }
 
-  nav ul li:hover {
+  nav ul li&:hover {
     background: #eca023
   }
