@@ -1,3 +1,105 @@
 @import "./partials/variables";
-@import "./partials/menubar";
-@import "./partials/coninicio";
+@import "./partials/menubar"; 
+.logo--menu{
+    width: 126px;
+}
+.encabezado {
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    position: sticky;
+    z-index: 100;
+    top: 0px;
+  }
+  
+  .menu {
+    display: inline-block;
+  }
+  
+  .menu--bar .menu {
+    list-style: none;
+    overflow: hidden;
+    .menu--item {
+        float: left;
+        font-family: 'Lora', serif;
+        font-size: 16px;
+        border-radius: 30px;
+        &:hover {
+            background: #eca023
+          } 
+        a {
+            display: block;
+            padding: 10px;
+            color:  #faeed3;
+            text-decoration: none;
+          }
+  }
+}
+
+  nav ul li:hover {
+    background: #eca023
+  }
+/*menubar------------------*/
+.titulo--inicio{
+    background-color: #faeed2;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    float: center;
+
+}
+.logo2{
+    width: 159px;
+    margin: auto;
+
+}
+.img-contenido{
+  width: 100%;
+  padding: none;
+}
+
+.area{
+ border-radius: 5px;
+ background-color: #db9f36;
+ position: absolute;
+ width: 80px;
+ top: 10px;
+ font-family: 'Lora', serif;
+
+}
+.img-baguette{
+  width:  284px;
+  border-radius: 10px;
+  height: 185px;
+}
+.receta1, .receta2, .receta3{
+    width: 300px;
+    position: relative;
+    padding: 5px;
+    display: inline-block ;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color:#89796d;
+    margin: 20px;
+    font-family: 'Lora', serif;}
+ .segundo-encabezado{
+      background-color:#89796d;
+      text-align: center;
+      font-family: 'Lora', serif;
+      font-size: 100px;
+      color:  #faeed3 ;
+      margin: 0px;
+    }
+    .enlace{
+      text-decoration: none;
+      color:  #5e160d;
+      width: 50px;
+      display: inline-block;
+      float: center;
+    }
+    .pie-contenido{
+        font-family: 'Lora', serif;
+        text-decoration: none;}
+        .nos-con{
+            font-family: 'Lora', serif;
+            background-color: #c48c54;
+            color: #faeed2}
