@@ -1,0 +1,42 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.logo--menu {
+  width: 126px;
+}
+
+.encabezado {
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  position: sticky;
+  z-index: 100;
+  top: 0px;
+}
+
+.menu {
+  display: inline-block;
+}
+
+.menu--bar .menu {
+  list-style: none;
+  overflow: hidden;
+}
+.menu--bar .menu .menu--item {
+  float: left;
+  font-family: "Lora", serif;
+  font-size: 16px;
+  border-radius: 30px;
+}
+.menu--bar .menu .menu--item a {
+  display: block;
+  padding: 10px;
+  color: #faeed3;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background: #eca023;
+}/*# sourceMappingURL=main.css.map */
